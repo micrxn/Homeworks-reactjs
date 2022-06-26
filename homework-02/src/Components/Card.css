@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.card .card-img {
+  width: 100%;
+}
+.card .card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card .card-content {
+  font-size: 14px;
+  border: 1px solid #00f0d4;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.card .card-published-at {
+  background-color: #ff9d80;
+  display: flex;
+  /* align-items: center; */
+  /* padding-left: 150px; */
+}
